@@ -1,0 +1,93 @@
+body
+
+{
+background-image: url(printerpaper.png), url(ulti-tile.png);
+background-position: center bottom, left top;
+background-repeat: repeat-y, repeat;
+}
+
+p
+
+{
+	font-family: Courier;
+	font-size: 11pt;
+	width: 600px;
+	color: #000000;
+}
+
+.slideshow {
+	font-family:Arial, Helvetica, sans-serif;
+	overflow:visible;
+	color:#FFFFFF;
+	border:0px solid #BBBBBB;
+}
+.slideshow > ul {
+	margin: 0;
+	padding: 0;
+}
+.slideshow > ul > li {
+	display:inline;
+	margin:0px;
+	padding:0px;
+	font-size:0px;
+	margin-right: -1px;
+}
+.slideshow > ul > li > div {
+  display: none;
+  text-decoration: none;
+  float:clear;
+}
+.slideshow > ul > li > div > p {
+  font-size:11px;
+  text-align:center;
+  padding:10px 0px 0px 0px;
+  margin:0px;
+  color:#FFFFFF;
+}
+.slideshow > ul > li > div > a > img {
+	border:1px solid #FFFFFF;
+	width:400px;
+	max-height:500px;
+}
+.slideshow  > ul > li > img {
+	border:1px solid #FFFFFF;
+	margin:0px;
+	padding:0px;
+	width:160px;
+	height:120px;
+}
+/* Shows slides when mouse pointer is over a thumbnail image */
+.slideshow > ul > li:hover > div {
+	display: block;
+}
+/* Highlights the thumbnail image when mouse pointer is over it */
+.slideshow > ul > li:hover > img {
+	border-color:#FF6600;
+}
+
+h1
+
+{
+	font-family: "Courier";
+}
+
+a{
+	text-decoration:none;
+}
+
+a:link {
+COLOR: #DDDDDD;
+}
+a:visited {
+COLOR: #DDDDDD;
+}
+a:hover {
+COLOR: #AAAAAA;
+}
+a:active {
+COLOR: #DDDDDD;
+}
+
+img { 
+border: none;
+}

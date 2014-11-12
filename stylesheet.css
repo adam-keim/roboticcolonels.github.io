@@ -1,0 +1,37 @@
+body
+
+{
+background-image: url(blue2.png), url(ulti-tile.png);
+background-position: center center, left top;
+background-repeat: repeat-y, repeat;
+}
+
+p
+
+{
+	font-family: motorwerk, impact;
+	font-size: 11pt;
+	width: 1000 px;
+	color: #aaaaaa;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:link {
+COLOR: #DDDDDD;
+}
+a:visited {
+COLOR: #DDDDDD;
+}
+a:hover {
+COLOR: #FFFFFF;
+}
+a:active {
+COLOR: #DDDDDD;
+}
+
+img { 
+border: none;
+}

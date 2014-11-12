@@ -1,0 +1,40 @@
+body
+
+{
+background-image: url(printerpaper.png), url(ulti-tile.png);
+background-position: center bottom, left top;
+background-repeat: repeat-y, repeat;
+}
+
+p
+
+{
+	font-family: "Wingdings";
+	font-size: 11pt;
+	width: 600px;
+	color: #000000;
+}
+
+h1
+
+{
+	font-family: "Courier";
+}
+
+a{
+	text-decoration:none;
+}
+
+a:link {
+COLOR: #DDDDDD;
+}
+a:visited {
+COLOR: #DDDDDD;
+}
+a:hover {
+COLOR: #FFFFFF;
+}
+a:active {
+COLOR: #DDDDDD;
+}
+

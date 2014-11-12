@@ -1,0 +1,37 @@
+body
+{ 
+background-image:url(bg.png);
+background-repeat:repeat;
+background-attachment:fixed;
+background-position:center; 
+}
+
+p
+
+{
+	font-family: BankGothic Md BT, Lucida Console;
+	font-size: 11pt;
+	width: 900 px;
+	color: #cccccc;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:link {
+COLOR: #DDDDDD;
+}
+a:visited {
+COLOR: #DDDDDD;
+}
+a:hover {
+COLOR: #FFFFFF;
+}
+a:active {
+COLOR: #DDDDDD;
+}
+
+img { 
+border: none;
+}
